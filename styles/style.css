@@ -1,0 +1,49 @@
+
+/* this is the bg-image for the jumbotron */
+.jumbotron{
+  background-image: url(../images/mountain.jpg)
+}
+/* This makes the jumbotron bigger */
+.jumbotron div{
+  height:80vh;
+}
+
+.images div{
+  margin:20vh auto;
+}
+
+
+/* Experimental */
+.contact-info{
+  /* width: 600px; */
+  padding:5%;
+  background-color: #eeeeee;
+  text-align: center;
+  vertical-align: bottom;
+  position:relative;
+  border-radius: 10px;
+  box-shadow: 2px 4px 2px #a5a5a5;
+  border-style: 1px solid grey;
+
+
+}
+
+.verticalize-text{
+position:relative;
+top:25%;
+}
+.fab{
+  display: inline;
+}
+.bottomize-text{
+  position: relative;
+  top:40%
+
+}
+.bottomize-text p{
+  display: inline-block;
+  margin-right:5%;
+}
+.bottomize-text i{
+  margin-left:5%;
+}
